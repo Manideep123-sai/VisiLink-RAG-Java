@@ -1,0 +1,32 @@
+# Compiled binaries and target directory
+target/
+*.class
+
+# Package files (ignore fat jars in root, keep wrapper)
+*.jar
+*.war
+*.ear
+!.mvn/wrapper/maven-wrapper.jar
+
+# Log files
+*.log
+
+# Persistent video storage
+data/videos/*
+!data/videos/.gitkeep
+
+# Environment files with sensitive credentials
+.env
+.env.local
+
+# IDE configurations
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS generated files
+Thumbs.db
+.DS_Store
